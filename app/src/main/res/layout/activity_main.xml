@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"/>
+
+    <Button
+        android:id="@+id/launchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch"
+
+        />
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+
+        />
+
+    <Button
+        android:id="@+id/serviceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service"
+
+        />
+
+
+    <Button
+        android:id="@+id/startLSBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start LocalService"
+
+        />
+
+    <Button
+        android:id="@+id/stopLSBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop LocalService"
+
+        />
+
+    <Button
+        android:id="@+id/messageLSBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message LocalService"
+
+        />
+
+
+    <Button
+        android:id="@+id/ittBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IntentService"
+        />
+
+    <Button
+        android:id="@+id/aidlBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AIDL Service"
+        />
+
+    <Button
+        android:id="@+id/msgSrvBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messenger Service"
+        />
+
+</LinearLayout>
