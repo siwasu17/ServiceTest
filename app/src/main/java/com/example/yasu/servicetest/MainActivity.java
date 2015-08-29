@@ -89,7 +89,10 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onDestroy() {
+        //ここで止めないと自動復元してしまうため
+        stopMyService();
         super.onDestroy();
+
     }
 
     public void connectAIDLService(){
